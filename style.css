@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+
+body {
+    margin: 0%;
+    background-color: rgb(241, 250, 238);
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(241, 250, 238);
+    height: 70px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.brdr {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 70px;
+}
+
+.brdr:hover {
+    border-bottom: 3px solid rgb(230, 57, 70);
+}
+
+
+.picture1 {
+    background-image: url(leonardo.jpg);
+    width: 380px;
+    height: 500px;
+    margin-left: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 150px;
+    left: 800px;
+    border: 10px solid rgb(168, 218, 220);
+    transition: all 1s;
+}
+
+.picture2 {
+    background-image: url(скафандр2.jpg);
+    width: 380px;
+    height: 500px;
+    margin-left: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1050px;
+    border: 10px solid rgb(230, 57, 70);
+    transition: all 1s;
+}
+
+.picture3 {
+    background-image: url(мона.jpg);
+    width: 380px;
+    height: 500px;
+    margin-left: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1760px;
+    left: 800px;
+    border: 10px solid rgb(168, 218, 220);
+    transition: all 1s;
+}
+
+.picture1:hover {
+    width: 400px;
+    height: 520px;
+}
+
+.picture2:hover {
+    width: 400px;
+    height: 520px;
+}
+
+.picture3:hover {
+    width: 400px;
+    height: 520px;
+}
+
+
+.firsttype {
+    background-color: rgb(69, 123, 157);
+    width: 75%;
+    height: 550px;
+    margin-top: 150px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    padding-top: 30px;
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+.sectype {
+    width: 75%;
+    height: 700px;
+    margin-top: 150px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(29, 53, 87);
+    padding-top: 30px;
+    padding-right: 100px;
+    font-size: 20px;
+    display: flex;
+}
+
+h2 {
+    width: 650px;
+    margin-bottom: 40px;
+}
+
+.button1 {
+    width: 100px;
+    height: 60px;
+    background-color: rgb(241, 250, 238);
+    border: 5px solid rgb(29, 53, 87);
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(29, 53, 87);
+    transition: 0.5s;
+}
+
+.button2 {
+    width: 100px;
+    height: 60px;
+    background-color: rgb(241, 250, 238);
+    border: 5px solid rgb(230, 57, 70);
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(29, 53, 87);
+    transition: 0.5s;
+}
+
+.button2:hover {
+    background-color: rgb(230, 57, 70);
+    color: rgb(241, 250, 238);
+}
+
+.button1:hover {
+    background-color: rgb(29, 53, 87);
+    color: rgb(241, 250, 238);
+}
+
+.container {
+    margin-top: 35px;
+    margin-left: 600px;
+}
+
+footer {
+    margin-top: 200px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(29, 53, 87);
+    color: rgb(241, 250, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

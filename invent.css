@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+
+body {
+    margin: 0%;
+    background-color: rgb(69, 123, 157);
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(69, 123, 157);
+    height: 70px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    position: fixed;
+}
+
+.head {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.brdr {
+    color: rgb(241, 250, 238);
+    margin-right: 55px;
+}
+
+.brdr:hover {
+    border-bottom: 3px solid rgb(230, 57, 70);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(241, 250, 238);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(241, 250, 238);
+}
+
+.image {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(168, 218, 220);
+    border: 5px solid rgb(168, 218, 220);
+}
+
+.block {
+    width: 500px;
+    margin-top: 50px;
+    height: 870px;
+}
+
+.one {
+    background-image: url(автомобиль.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.two {
+    background-image: url(робот.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.three {
+    background-image: url(чертеж_вертолета.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.four {
+    background-image: url(чертеж_дельтоплан.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.five {
+    background-image: url(танк2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.six {
+    background-image: url(скафандр.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seven {
+    background-image: url(подвод.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    font-size: 20px;
+}
+
+.container {
+    margin-top: 100px;
+}
